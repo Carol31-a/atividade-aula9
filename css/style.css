@@ -4,6 +4,87 @@ aside{
     padding-left: 15px ;
     float: right;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    background-color: rgb(243, 231, 124);
+    font-size: 20px;
+    background-color: rgb(102, 101, 101);
+}
+body{
+    background-color: rgb(211, 211, 211);
+}
+p{
+    font-size: 22px;
+}
+h1{
+    color: rgb(250, 250, 252);
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: rgb(15, 15, 15);
+    border-radius: 30px;
+}
+
+
+.Galeria{
+    margin-left: 18%;
+}
+
+.corpo{
+    display: flex;
+}
+
+.all-browser{
+
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(78, 79, 80);
+    margin-left: 10%;
+    margin-right: 10%;
+
+    
+}
+
+.all-browserc > h1, browser{
+    margin: 20px;
+    padding: 7px;
+
+}
+h1{
+    color: rgb(154, 160, 158);
+}
+
+.browser{
+    font-size: px;
+    background:whitesmoke;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+.browser > h2, p{
+    margin: 4px;
+    font-size: 90%;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+lI {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: gray;
 }
